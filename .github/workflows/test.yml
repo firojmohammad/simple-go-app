@@ -23,7 +23,7 @@ jobs:
      - name: build_push_tag of develop
      - uses: actions/checkout@v2
      - name: Build the Docker image
-       run: docker build . --file Dockerfile --tag my-image-name:hi
+       run: docker build . --file Dockerfile --tag my-image-name:hey
      
      - name: Build and Push Docker Image
        uses: mr-smithers-excellent/docker-build-push@v4
